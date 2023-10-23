@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+require('./models/Reaction');
 const Schema = mongoose.Schema;
 
 const ReactionSchema = new Schema({
