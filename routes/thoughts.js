@@ -1,9 +1,10 @@
 const router = require('express').Router();
+const ReactionSchema = require('../models/reaction');
 const Thought = require('../models/thought');
 
 // GET all thoughts
 router.get('/', async (req, res) => {
-  const thoughts = await Thought.find().populate('reactions');
+  const thoughts = await Thought.find();
   res.json(thoughts);
 });
 
