@@ -14,4 +14,12 @@ ThoughtSchema.virtual('reactionCount').get(function() {
 
 const Thought = mongoose.model('Thought', ThoughtSchema);
 
+Thought.create([
+  { thoughtText: "Okilly Dokilly", username: 'Ned Flanders'},
+  { thoughtText: "Excellent", username: 'Monty Burns'},
+  { thoughtText: "Worst Coding Ever", username: 'Comic Book Guy'},
+  { thoughtText: "Ha Ha", username: 'Nelson Muntz'},
+  { thoughtText: "Hi, Everybody!", username: 'Dr.Nick'},
+])
+
 module.exports = Thought;
