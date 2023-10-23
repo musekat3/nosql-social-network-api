@@ -1,2 +1,32 @@
 # nosql-social-network-api
 A NoSQL Social Network API that Uses MongoDB 
+
+# User Story 
+As a social media startup
+I want an API for my social network that uses a NoSQL database
+So that my website can handle large amounts of unstructured data. I also want to be able to test the databases data by using Insomnia to make sure that the database is processing correctly.
+
+# Acceptance 
+- Given the API 
+- When I enter node server.js the server starts
+- Once the server starts the database from MongoDB syncs
+- When I open Insomnia
+- I am then able to test the routes: GET, PUT, POST and DELETE with API routes USERS and THOUGHTS 
+- Then I am able to successfully update the database 
+
+# Technologies Used 
+- Express
+- Heroku
+- MongoDB
+- Mongoose 
+- Insomnia
+- JavaScript 
+
+# Screenshots
+
+# Code Repo & Video Link
+https://github.com/musekat3/nosql-social-network-api
+
+
+
+
