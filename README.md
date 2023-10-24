@@ -23,6 +23,8 @@ So that my website can handle large amounts of unstructured data. I also want to
 - JavaScript 
 
 # Screenshots
+![USERS](https://github.com/musekat3/nosql-social-network-api/assets/131501260/2050f81d-baf9-4fe1-a3ac-fc69c18412ca)
+![THOUGHTS](https://github.com/musekat3/nosql-social-network-api/assets/131501260/f27d901d-1424-4a45-aaf4-d80dac4e3ada)
 
 # Code Repo & Video Link
 https://github.com/musekat3/nosql-social-network-api
